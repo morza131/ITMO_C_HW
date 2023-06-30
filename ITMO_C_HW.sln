@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson8_EX3", "Lesson8_EX3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson9_EX1", "Lesson9_EX1\Lesson9_EX1.csproj", "{6E343B7B-005D-4716-8A8E-172405908F99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson2_EX1,2,3", "..\..\..\Desktop\ИТМО\C#\Задание 2\ITMO_C\Lesson2_EX1,2,3.csproj", "{172C99B0-7361-424D-85F4-871491F91CC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{6E343B7B-005D-4716-8A8E-172405908F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E343B7B-005D-4716-8A8E-172405908F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E343B7B-005D-4716-8A8E-172405908F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172C99B0-7361-424D-85F4-871491F91CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172C99B0-7361-424D-85F4-871491F91CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172C99B0-7361-424D-85F4-871491F91CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172C99B0-7361-424D-85F4-871491F91CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
