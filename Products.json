@@ -1,0 +1,27 @@
+[
+  {
+    "ProductCode": 451,
+    "ProductName": "Розетка",
+    "Price": 1000
+  },
+  {
+    "ProductCode": 1337,
+    "ProductName": "Выключатель",
+    "Price": 300
+  },
+  {
+    "ProductCode": 3220,
+    "ProductName": "Лампочка",
+    "Price": 120
+  },
+  {
+    "ProductCode": 7777,
+    "ProductName": "Генератор",
+    "Price": 3200000
+  },
+  {
+    "ProductCode": 40404,
+    "ProductName": "Трансформатор",
+    "Price": 2000000
+  }
+]
