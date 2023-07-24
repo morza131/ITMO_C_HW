@@ -60,7 +60,7 @@ namespace Lesson19
             Computer computermin = computers.OrderByDescending(x => x.Price).LastOrDefault();
             Console.WriteLine($"Самый дорогой компьютер: {computermax.Article}, {computermax.Model}, {computermax.Price}, {computermax.NumberOfComputers}");
             Console.WriteLine($"Самый дешевый компьютер: {computermin.Article}, {computermin.Model}, {computermin.Price}, {computermin.NumberOfComputers}");
-            Console.WriteLine($"Есть ли компьютеров в наличии больше 30? {computers.Any(x => x.NumberOfComputers >30)}");
+            Console.WriteLine($"Есть ли компьютеров в наличии не менее 30? {computers.Any(x => x.NumberOfComputers >=30)}");
 
         }
         static void Print(List<Computer> computers)
