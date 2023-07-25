@@ -8,7 +8,7 @@ namespace Lesson20
 {
     internal class Program
     {
-        public delegate double MyDelegate(double r);
+        delegate double MyDelegate(double r);
         static void Main(string[] args)
         {
             Console.WriteLine("Введите радиус");
@@ -22,15 +22,15 @@ namespace Lesson20
 
 
         }
-        public static double Сircumference(double r)
+        static double Сircumference(double r)
         {
             return 2 * Math.PI * r;
         }
-        public static double Square (double r)
+        static double Square (double r)
         {
             return Math.PI * r*r;
         }
-        public static double Volume (double r) 
+        static double Volume (double r) 
         {
             return Math.PI * r*r*r*4/3;
         }
