@@ -11,7 +11,7 @@ namespace Lesson21
     internal class Program
     {
         const int n = 9;
-        static int[,] garden = new int[n, n];
+        static int[,] garden = new int[n, n];              
         static void Main(string[] args)
         {
             
