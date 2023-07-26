@@ -21,7 +21,8 @@ namespace Lesson22
             Task<int> task2 = task.ContinueWith<int>(func2);
 
             task.Start();
-            
+            Console.WriteLine(task.Result);
+            Console.WriteLine(task2.Result);
 
         }
         static int MaxV(Task<int[]> task) 
